@@ -151,111 +151,290 @@ nav li a {
 
 }
 
-.banner-img img{
+.banner-img img {
     width: 200%;
 
 }
 
 
 /* main styles */
-main{
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
 
 /* team style */
-.team-boss{
+.team-boss {
     max-width: 800px;
-   
+
     margin-left: 600px;
 
-   
+
 }
-.team-title{
+
+.team-title {
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
 }
-.player-name{
+
+.player-name {
     color: #534C64;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.player{
+.player {
     display: flex;
     gap: 24px;
     margin-top: 10px;
 }
 
 
-.features{
+.features {
     display: flex;
     margin-top: 150px;
     gap: 200px;
     align-items: center;
 }
-.feature-content{
+
+.feature-content {
     margin-left: 250px;
     margin-bottom: 300px;
 }
 
-.short{
+.short {
     width: 318.5px;
-height: 365.083px;
-border-radius: 8px;
-border: 10px solid #FFF;
-background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
-position: relative;
-bottom: 300px;
+    height: 365.083px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    position: relative;
+    bottom: 300px;
 }
 
-.feature-img .img{
+.feature-img .img {
     margin-left: 160px;
 }
 
-.feature-title{
-font-size: 30px;
-font-weight: 700;
-line-height: 60px; 
+.feature-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
 }
 
 
 
 
+.ip {
+    text-align: left;
+}
+
+.common {
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.ui {
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.icon {
+    display: flex;
+    gap: 100px;
+
+}
+
+.iu {
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+    border: 2px solid orangered;
+}
+
+
+.pi {
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.ip {
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+
+.pro {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.yi {
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+
+.iyi {
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.iy {
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.hi{
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+
+/* footer styles */
+
+.color{
+    background-color: #0B0223;
+    padding-bottom: 200px;
+    
+}
+
+
+
+.footer_column{
+    display: flex;
+    margin-left: 650px;
+    margin-top: 200px;
+    
+    
+   
+
+}
+
+
+.white{
+    color: white;
+}
+
+
+.mp{
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+}
+
+
+.i-phn{
+   margin-left: 600px;
+   margin-top: 100px;
+  
+}
+.phn{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+display: flex;
+gap: 100px;
+margin-left: 300px;
+margin-top: 100px;
+}
+
+.my{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+margin-left: 500px;
+
+}
+
+
+.two{
+
+}
 
 
 /* responsive styles */
 
-@media  screen and (max-width:459px) {
-    
-    header{
+@media screen and (max-width:459px) {
+
+    header {
         padding: 40px;
 
     }
-    nav,.banner-title,.banner,.features {
+
+    nav,
+    .banner-title,
+    .banner,
+    .features,.player,.footer_column {
         flex-direction: column;
-        
+
     }
 
     nav ul {
         flex-direction: column;
     }
-    .banner-img img{
+
+    .banner-img img {
         width: 40%;
-        
+
     }
-    .feature-img img{
+
+    .feature-img img {
         width: 100%;
-       margin: 0px;
+        margin: 0px;
     }
+
+
+    .footer_column{
+        padding: 100px;
+      margin-left: 0 ;
+    }
+
+    .mp{
+        margin-left: 30px;
+    }
+
+
+    .i-phn{
+        margin-left: 60px;
+    }
+    
+    .phn{
+        margin-left: 0;
+    }
+
+    .my{
+        margin-left: 0;
+    }
+
+    
+    
+
+    
    
 
 
-
-
-    
 }
 
 
@@ -264,21 +443,53 @@ line-height: 60px;
 /* tablet */
 @media screen and (min-width: 459px) and (max-width: 768px) {
 
-   header{
-    padding: 100px;
-   }
-   nav,.banner-title,.banner,.features {
-    flex-direction: column;
-}
-nav ul {
-    flex-direction: column;
-}
-.banner-img img{
-    width: 50%;
+    header {
+        padding: 100px;
+    }
+
+    nav,
+    .banner-title,
+    .banner,
+    .features,.footer_column,.player,.color {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .banner-img img {
+        width: 50%;
+
+    }
+
+    .feature-img img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .color{
+        margin-left: 0px;
+    }
+    .footer_column{
+        padding: 100px;
+      margin-left: 0 ;
+    }
+
+    .mp{
+        margin-left: 30px;
+    }
+
+
+    .i-phn{
+        margin-left: 60px;
+    }
     
-}
-.feature-img img{
-    width: 100%;
-   margin: 0px;
-}
+    .phn{
+        margin-left: 0;
+    }
+
+    .my{
+        margin-left: 0;
+    }
 }
